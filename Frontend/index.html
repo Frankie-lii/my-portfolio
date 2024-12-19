@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="container">
+                <!-- Logo -->
+                <div class="logo">
+                    <h1><i class="fas fa-laptop-code"></i>Frankline Oyiengo</h1>
+                </div>
+
+                <!-- Navigation Links -->
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <div class="home-content">
+                <img src="images/photo.jpg" alt="Frankline Oyiengo" class="home-photo">
+                <div class="home-text">
+                    <h2>Hello, I'm Frank</h2>
+                    <p>Welcome to my portfolio! I am an IT Person mostly specialised in Web Design, Web development, Graphic design and am also a Backend developer, and this is where I showcase my skills and projects.</p>
+                    <a href="#about" class="btn">Learn More About Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container about-content">
+            <!-- About Photo -->
+            <div class="about-photo">
+                <img src="images/photo.jpg" alt="Frankline Oyiengo">
+            </div>
+
+            <!-- About Text -->
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    Hello! I'm Frank, a passionate in Information Communication Technology with 2years of experience in Information Technology. I specialize in Web Design, Web development, Graphic design and also a backend developer and love creating innovative solutions
+                    for challenging problems.
+                </p>
+                <p>
+                    Outside of work, I enjoy Playing Football and also Training in martial arts, which help fuel my creativity and drive. I'm always eager to learn new things and collaborate with talented people around the globe.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1: Christmas Installation Website -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Christmas Installation Website</h3>
+                        <p>A festive website for a Christmas installation business showcasing their holiday-themed services.</p>
+                        <a href="https://frank-003.github.io/chrismas-installation/" class="btn">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Beer Brand Website -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Beer Brand Website</h3>
+                        <p>A brand website for a beer company, featuring product details and brand story.</p>
+                        <a href="https://frank-003.github.io/BEERBRANDEDWEBSITE/" class="btn">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 3: Cake Website -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Cake Website</h3>
+                        <p>A bakery website offering custom cakes and baked goods with an online ordering system.</p>
+                        <a href="https://frank-003.github.io/Cake-Website/" class="btn">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 4: Coffee Web Design (Figma) -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Coffee Web Design (Figma)</h3>
+                        <p>A modern coffee shop website design created using Figma, showcasing UI/UX design skills.</p>
+                        <a href="https://www.figma.com/design/cnkv6PkTwdUfDHryZawTvO/Coffee-website-design?node-id=3-10&p=f&t=SWHBdPyQAavCKIqx-0" class="btn">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 5: Football Sports Web Design (Figma) -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Football Sports Web Design (Figma)</h3>
+                        <p>A sports website design for a football club, focusing on user engagement and live updates.</p>
+                        <a href="https://www.figma.com/design/hDJoBYzjDfDrNteMIOFQmk/My-First-Design?node-id=0-1&p=f&t=SWHBdPyQAavCKIqx-0" class="btn">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 6: Carpentry Shop Web Design (Figma) -->
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Carpentry Shop Web Design (Figma)</h3>
+                        <p>A website design for a carpentry business showcasing products and services.</p>
+                        <a href="https://www.figma.com/proto/Z9jFXCHZ1S5IbRCbG3z0oY/Carpentry-shop-Design?node-id=1-7&starting-point-node-id=1%3A7&scaling=scale-down-width&content-scaling=fixed class" class=btn ">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Contact Section -->
+    <section id="contact ">
+        <div class="container ">
+        <h2>Contact Me</h2>
+        <p>Feel free to send me a message, and I'll get back to you as soon as possible. Choose how you'd like to receive the message.</p>
+        <form id="contact-form " action="/send-message " method="POST ">
+            <div class="form-group ">
+            <label for="name ">Full Name</label>
+            <input type="text " id="name " name="name " required placeholder="Enter your full name ">
+            </div>
+            <div class="form-group ">
+            <label for="email ">Email Address</label>
+            <input type="email " id="email " name="email " placeholder="Enter your email (optional) ">
+            </div>
+            <div class="form-group ">
+            <label for="phone ">Phone Number</label>
+    <input type="text " id="phone " name="phone " placeholder="Enter your phone number (optional) ">
+            </div>
+            <div class="form-group ">
+            <label for="contact-method ">Preferred Contact Method</label>
+        <select id="contact-method " name="contact-method " required>
+                <option value="email ">Email</option>
+                <option value="phone ">Phone</option>
+            </select>
+            </div>
+            <div class="form-group ">
+            <label for="message ">Your Message</label>
+            <textarea id="message " name="message " required placeholder="Enter your message here "></textarea>
+            </div>
+            <button type="submit " class="btn ">Send Message</button>
+        </form>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer>
+        <div class="container ">
+            <div class="footer-content ">
+                <p>&copy; 2024 Oyiengo Frankline. All Rights Reserved.</p>
+                <ul class="social-links ">
+                    <li><a href="https://x.com/@FranklineOyien1 " target="_blank " aria-label="X "><i class="fab fa-x "></i></a></li>
+                    <li><a href="https://github.com/Frank-003 " target="_blank " aria-label="GitHub "><i class="fab fa-github "></i></a></li>
+                    <li><a href="https://linkedin.com/in/frankline-oyiengo-7852bb289/ " target="_blank " aria-label="LinkedIn "><i class="fab fa-linkedin "></i></a></li>
+                    <li><a href="mailto:oyiengofrankline49@gmail.com " aria-label="Email "><i class="fas fa-envelope "></i></a></li>
+                    <li><a href="https://instagram.com/frankiechan919 " target="_blank " aria-label="Instagram "><i class="fab fa-instagram "></i></a></li>
+                    <li><a href="https://facebook.com/Frankie Chan " target="_blank " aria-label="Facebook "><i class="fab fa-facebook "></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js "></script>
+
+
+</body>
+
+</html>

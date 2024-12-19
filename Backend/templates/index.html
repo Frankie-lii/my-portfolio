@@ -1,0 +1,33 @@
+<!-- Contact Section -->
+<section id="contact ">
+    <div class="container ">
+    <h2>Contact Me</h2>
+    <p>Feel free to send me a message, and I'll get back to you as soon as possible. Choose how you'd like to receive the message.</p>
+    <form id="contact-form " action="/send-message " method="POST ">
+        <div class="form-group ">
+        <label for="name ">Full Name</label>
+        <input type="text " id="name " name="name " required placeholder="Enter your full name ">
+        </div>
+        <div class="form-group ">
+        <label for="email ">Email Address</label>
+        <input type="email " id="email " name="email " placeholder="Enter your email (optional) ">
+        </div>
+        <div class="form-group ">
+        <label for="phone ">Phone Number</label>
+<input type="text " id="phone " name="phone " placeholder="Enter your phone number (optional) ">
+        </div>
+        <div class="form-group ">
+        <label for="contact-method ">Preferred Contact Method</label>
+    <select id="contact-method " name="contact-method " required>
+            <option value="email ">Email</option>
+            <option value="phone ">Phone</option>
+        </select>
+        </div>
+        <div class="form-group ">
+        <label for="message ">Your Message</label>
+        <textarea id="message " name="message " required placeholder="Enter your message here "></textarea>
+        </div>
+        <button type="submit " class="btn ">Send Message</button>
+    </form>
+    </div>
+</section>
